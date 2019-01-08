@@ -1,0 +1,5 @@
+token
+node_modules/
+test.js
+test.txt
+package-lock.json
