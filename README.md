@@ -8,12 +8,13 @@
 ターミナルや cd コマンドは知っている前提で書きます。分からない人はググってください。
 
 1. [このページ](https://qiita.com/taiponrock/items/9001ae194571feb63a5e)を参考にNode.js のインストールをする
-2. ターミナルを開き、`git clone https://github.com/retchoon/ace-bot.git`する
-3. `cd ace-bot`とコマンドを打ち ace-bot ディレクトリに移動した後、`npm install`とコマンドを打つ
-4. [Discord Developer サイト](https://discordapp.com/developers/applications/)から アプリケーションを作成した後 bot を作成する。
-5. `https://discordapp.com/oauth2/authorize?client_id=クライアントID&permissions=31477768&scope=bot`にアクセスし、bot を任意のサーバーに追加する。（URL のクライアント ID の部分を、4 で作成したアプリケーションの id に変更してください。`General Information`ってとこクリックしたら`CLIENT ID`ってやつがあるはずです。)
-6. `.token`ファイルに 4 で作成した bot のトークンをコピペし、ファイル名を`token`に変更する(token は他人に知られないよう注意)
-7. ここまでで bot の起動をしてみても動かなかったら下記コマンド試してください
+2. [このページ](https://qiita.com/toshi-click/items/dcf3dd48fdc74c91b409)を参考にgitをインストールする
+3. ターミナル(windowsは`Windowsキー+s` → `cmd` で検索して「コマンドプロンプト」を開く)を開き、`git clone https://github.com/retchoon/ace-bot.git`する
+4. `cd ace-bot`とコマンドを打ち ace-bot ディレクトリに移動した後、`npm install`とコマンドを打つ
+5. [Discord Developer サイト](https://discordapp.com/developers/applications/)から アプリケーションを作成した後 bot を作成する。
+6. `https://discordapp.com/oauth2/authorize?client_id=クライアントID&permissions=31477768&scope=bot`にアクセスし、bot を任意のサーバーに追加する。（URL のクライアント ID の部分を、4 で作成したアプリケーションの id に変更してください。`General Information`ってとこクリックしたら`CLIENT ID`ってやつがあるはずです。)
+7. `.token`ファイルに 4 で作成した bot のトークンをコピペし、ファイル名を`token`に変更する(token は他人に知られないよう注意)
+8. ここまでで bot の起動をしてみても動かなかったら下記コマンド試してください
    ```shell
     # windows環境
     npm install --global windows-build-tools
