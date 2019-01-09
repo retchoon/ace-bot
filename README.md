@@ -7,7 +7,7 @@
 
 ターミナルや cd コマンドは知っている前提で書きます。分からない人はググってください。
 
-1. Node.js のインストールをする
+1. [このページ](https://qiita.com/taiponrock/items/9001ae194571feb63a5e)を参考にNode.js のインストールをする
 2. ターミナルを開き、`git clone https://github.com/retchoon/ace-bot.git`する
 3. `cd ace-bot`とコマンドを打ち ace-bot ディレクトリに移動した後、`npm install`とコマンドを打つ
 4. [Discord Developer サイト](https://discordapp.com/developers/applications/)から アプリケーションを作成した後 bot を作成する。
